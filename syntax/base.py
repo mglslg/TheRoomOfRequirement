@@ -15,13 +15,11 @@ for i in range(5, -1, -1):
     print(i)
 
 for i in range(5):
-    print(random.randint(1, 10)
+    print(random.randint(1, 10))
 
-sss = print("me")
+    sss = print("me")
 
-if sss == None:
-    print("heihei")
+    if sss == None:
+        print("heihei")
 
-print('cats', 'dogs', 'mice', sep=',')
-
-
+    print('cats', 'dogs', 'mice', sep=',')
