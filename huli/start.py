@@ -60,7 +60,7 @@ def add_loan_to_mysql(idStart, number):
             print("正在创建第" + str(i) + "条记录...")
             cursor.execute(insert_sql)
             db.commit()
-            add_loan_to_mongo(loan_id, "1204213923985756164", "张三", "浦发房贷")
+            add_loan_to_mongo(loan_id, "12042139239857561641", "张三", "浦发房贷")
         except Exception as e:
             traceback.print_exc()
             print("Error: unable to insert data")
