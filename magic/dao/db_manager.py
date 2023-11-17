@@ -1,5 +1,5 @@
 import pymysql
-import db_config
+from ..config import db_config
 
 
 def get_db():
